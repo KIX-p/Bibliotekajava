@@ -29,7 +29,7 @@ public class Main {
                     String lastName = scanner.nextLine();
                     System.out.print("Podaj liczbę stron: ");
                     int pages = scanner.nextInt();
-                    scanner.nextLine(); // Consume newline left-over
+                    scanner.nextLine();
                     System.out.print("Podaj ISBN: ");
                     String ISBN = scanner.nextLine();
 
